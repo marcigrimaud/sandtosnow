@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:700,800');
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+/*BASIC*/
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+h1, h2, h3, h4, h5 , h6 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+    }
+
+p{
+    font-size: 1em;
+    padding: 30px;
+    
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.bigtext {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+body { 
+    position: relative;
+    top: 120px;
+    z-index: -1;
+}
+.textalign{
+        text-align: left;
+    }
+.description{ padding-left: 10%; padding-right: 10%;}
+.normal{
+    top: 90px;
+    
+}
+.shopbody{
+    top: 155px;
+}
+
+.itemlinks {
+    color: black;
+}
+.itemlinks:hover {
+    color: #e5ba7b;
+    text-decoration: none;
+}
+.snowitems:hover{
+    color: #9bafbf;
+}
+
+figcaption h6 {
+    font-size: 1em;
+    padding: 0;
+    padding-top: 1px;
+}
+
+/*CONTACT NAVIGATION*/
+header{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    background-color: black;
+        width: 100%;
+        height: 3em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    font-size: .75em;
+}
+ .contactbar {
+    width: 100%;
+    color: white;
+    list-style-type: none;
+    }
+.contactbar li {
+    float: right;
+    display: inline;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.contactbar img { 
+    width: 1.25em;
+    background-color: black;
+}
+ .contactbar a {
+        text-decoration: none;
+        color: white;
+        background-color: black;
+}
+
+/*MAIN NAVIGATION*/
+.mainnav{
+    width: 100%;  
+    position: fixed;
+    top: 2.2em;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 0px;
+    z-index: 1;
+    
+    font-size: 1em;
+    
+}
+.mainnav ul{
+    background-color: white;
+    list-style-type: none;
+}
+.mainnav li{
+    display: inline;
+    padding: 10px;
+}
+.mainnav a{
+    background-color: white;
+    text-decoration: none;
+    color: black;       
+}
+.mainnav img{
+    width: 15%;
+    max-width: 70px;
+    background-color: white;
+}
+.centertext{
+    position: relative;
+}
+.sandside {color: black;}
+.sandside:hover {
+    color: black; 
+    background-color: #e5ba7b; 
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.sandside:active {
+    color: black; 
+    background-color: #e5ba7b; 
+    text-decoration: none; 
+    padding: 5px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.snowside {color: black; text-decoration: none; }
+.snowside:hover {
+    color: black; 
+    background-color: #b1c7dc; 
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.snowside:active {
+    color: black; 
+    background-color: #b1c7dc; 
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+/* SUB NAVIGATION */
+.subnav{
+    width: 100%;
+    position: fixed;
+    top: 8em;
+    z-index: 1;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+}
+.subnav ul{ 
+    margin: auto;
+    list-style-type: none;
+    width: 100%;
+}
+.subnav li{ 
+    padding: 10px;
+    display: inline;
+
+}
+.sandsubnav li{background-color: #f2dcbd; }
+.snowsubnav li{background-color: #b1c7dc; }
+
+.subnav li:hover {
+    background-color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.subnav a{
+    color: black;
+    text-decoration: none;
+}
+.subnav a:hover{
+    color: white; 
+    text-decoration: none;
+    padding: 15px;
+}
+
+/*BANNER LINKED IMAGES*/
+.bannerimgs{ display: flex;}
+.imglinks{
+    width: 100%;
+    padding: 0;
+    margin: 0;  
+}
+
+/*ABOUT SECTION*/
+.about{
+    padding-bottom: 20px;   
+}
+.about h1 { 
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+.about p , .newsletter p {
+    margin-top: -25px;
+}
+
+/*CATEGORY CODE*/
+.container figure img {
+    width: 60%;
+}
+.sandgear , .snowgear { 
+    padding-top: 20px;
+    padding-bottom: 20px;
+     width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.sandgear {
+    padding-top: 20px;
+    background-image: url("tantexture.png");
+    background-color: #f2dcbd;
+}
+.snowgear{
+    background-image: url("bluetexture.png");
+    background-color: #d8e3ed;
+}
+
+/*NEWSLETTER*/
+.newsletter{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.newsletterform{
+        padding-left: 10px;  
+        padding-right: 10px;
+    }
+.inputsbx  {
+    font-size: .75em;
+    width: 130%;
+    border: 2px solid #f2dcbd;
+    padding: 10px;
+
+    text-align: left;
+}
+.submtbttn{
+    font-size: .75em;
+    border: 2px solid #f2dcbd;
+    background-color: #f2dcbd;
+    width: 100%;
+    padding: 10px;
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+.footernav{ background-color: black;}
+.footerimg {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+}
+.footerimg img{    
+    width: 50%;
+    padding-top: 10px;
+    }
+.footertext table{
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+
+}
+.footertext th{ 
+    color: white;
+    font-size: .75em;
+    background-color: black;
+}
+.footertext td { 
+    color: white;
+    font-size: .5em;
+    background-color: black;
+}
+
+/* About Page */
+.carousel {
+    width: 100%;
+}
+.aboutcontact{
+    margin-top: -30px;
+}
+
+/* SHOP CATEGORY IMAGES */
+    .categorybox {
+        padding: 10px;
+    }
+    .categoryimgs{
+        width: 100%;
+    }
+    .categorybox .row{
+        padding-top: 15px;
+        padding-bottom: 15px;
+}
+picture
+{padding: 0;}
+.sandcategory{
+     background-image: url("tantexture.png");
+    background-color: #f2dcbd;
+}
+    
+.snowcategory{
+     background-image: url("bluetexture.png");
+    background-color: #d8e3ed;
+}
+
+/* ITEM PAGE */
+.itemcontainer {
+    padding: 20px;
+    
+}
+.backbtn {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.itemsize{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.submitbox{    
+    padding: 10px;
+    padding-left: 31%;
+    padding-right: 31%;
+    
+}
+.addcart {
+    color: white;
+    border: 2px solid #b1c7dc;
+    background-color: #b1c7dc;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+.savelater{
+    border: 2px solid lightgrey;
+    
+}
+
+.submitbox:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+.buttons{
+    padding-bottom: 40px;
+}
+
+.form-check-input{
+    width: 20px;
+    height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;    
+}
+
+/****** MEDIUM SCREEN*******/
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    body { 
+    position: relative;
+        top: 140px;
+    }
+    .whitebody{padding-bottom: 20%;}
+    .shopbody {
+        top: 164px;
+    }
+    .normal{
+        top: 170px
+    }
+    
+   p{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .description{ padding-left: 10%; padding-right: 10%;}
+    .bodydescription{
+         padding-left: 10%; padding-right: 10%;
+        
+    }
+    /*NAVIGATION DESKTOP*/
+    .mainnav{
+    font-size: 1.5em;
+    position: fixed;
+    top: 1.5em;
+    
+}
+.mainnav li{
+    padding: 40px;
+}
+
+.mainnav img{
+    width: 18%;
+    max-width: 75px;
+    background-color: white;
+}
+
+.sandside:hover {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sandside:active {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.snowside:hover {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.snowside:active {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* NEWSLETTER */
+    .newsletterform {
+        width: 100%;
+        padding-left: 20%;  
+        padding-right: 20%;
+    }
+    
+    .inputsbx  {
+        font-size: .75em;
+        width: 130%; 
+}
+
+/* FOOTER */
+    .footerimg{
+        padding-left: 30%;
+        padding-right: 30%;
+        margin: 0;
+    }
+    .footerimg img{ 
+        min-width: 30px;
+        width: 30%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }  
+    .footertext {
+        width: 100%;
+        margin: 0;
+        padding-left: 20%;
+        padding-right: 20%;
+        
+    }
+    .footertext table {
+        margin-left: auto; 
+        margin-right: auto;
+
+    }
+    
+/* SAND/SNOW SHOP PAGES*/
+    .subnav{
+        top: 8.5em;
+    }
+    .subnav li:hover {
+        padding-left: 1%;
+        padding-right: 1%;
+}
+
+/* ITEM PAGE */  
+    .itemcontainer fieldset, .textalign{
+        text-align: left;
+    }
+    .itemimg{width: 100%; padding-left: 20%; padding-right: 20%;}
+    
+      
+    .addcart {
+        padding-left: 40%;
+        padding-right: 40%;
+    }   
+    .savelater{
+        padding-left: 38%;
+        padding-right: 38%;
+        
+    }
+    .textalign2{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: left;
+        
+    }
+    
+    .colhalf{ width: 50%;}
+}
+/****** LARGE SCREEN*******/
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    p{
+        padding-left: 30%;
+        padding-right: 30%;
+    }    
+    .whitebody{padding-bottom: 7.5%;}
+/* NAVIGATION */    
+    .sandside:hover ,  .sandside:active ,  .snowside:active , .snowside:hover{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+/* NEWSLETTER */    
+    .newsletterform {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    
+    .inputsbx  {
+    font-size: .75em;
+        width: 160%; }
+    
+/*SUBNAV*/
+    .subnav{
+        position: fixed;
+        top: 8em;
+    }
+       .subnav li:hover {
+        padding-left: .5%;
+        padding-right: .5%;
+}
+
+    
+.whitebody{padding-bottom: 0;}
+    
+    
+}
